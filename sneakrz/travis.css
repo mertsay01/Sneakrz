@@ -1,0 +1,238 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+/* header */
+
+header{
+    width: 190rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50rem;
+    height: 5.5rem;
+    margin-left: 7rem;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.headerTekst{
+    margin-left: 80rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 3.5rem;
+    position: relative;
+}
+
+.headerTekst2{
+    margin-left: 6rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 3.5rem;
+    position: relative;
+}
+
+.htekst::after{
+    content: '';
+    position: absolute;
+    background-color: #000;
+    height: 0.4rem;
+    width: 0;
+    left: 0;
+    bottom: -0.5rem;
+    transition: 0.3s;
+}
+
+.htekst:hover::after{
+    width: 100%;
+}
+
+.shoppingcard{
+    position: fixed;
+    top: 15rem;
+    right: 15rem;
+    background: black;
+    width: 10rem;
+    height: 10rem;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 150%;
+}
+
+.shoppingcard:hover{
+    cursor: pointer;
+}
+
+.messege{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    background: blue;
+    border: 0.2rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+main{
+    width: 190rem;
+    display: flex;
+}
+
+.sectie{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.groteImageTitelPrijs{
+    width: 90rem;
+    margin-top: 10rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+}
+
+.titelprijs{
+    width: 60rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 80rem;
+    object-fit: contain;
+    margin-left: 10rem;
+}
+
+h1{
+    height: 15rem;
+    font-size: 6.5rem;
+    margin: 1rem;
+    margin-bottom: 4rem;
+}
+
+h2{
+    font-size: 6rem;
+    margin: 5rem;
+    margin-left: 1rem;
+}
+
+.kleurenbutton{
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.BF{
+    border-left: 5rem solid #000;
+    border-bottom: 5rem solid #000;
+    border-top: 5rem solid #000;
+    border-right: 5rem solid #000;
+    margin-left: 5rem; 
+}
+
+.fragment{
+    border-left: 5rem solid #eee;
+    border-bottom: 5rem solid #000;
+    border-top: 5rem solid #eebb99;
+    border-right: 5rem solid blue;
+}
+
+.ogsp{
+    border-left: 5rem solid #000;
+    border-bottom: 5rem solid #964b00;
+    border-top: 5rem solid #964b00;
+    border-right: 5rem solid #eee;
+}
+
+.olive{
+    border-left: 5rem solid #000;
+    border-bottom: 5rem solid #eee;
+    border-top: 5rem solid #556B2F;
+    border-right: 5rem solid #000;
+}
+
+.tekstsectie{
+    width: 150rem;
+    margin-left: 10rem;
+    margin-bottom: 10rem;
+    font-size: 2.5rem;
+}
+
+.tekstp{
+    width: 80ch;
+}
+
+.addtocart{
+    font-size: 3rem;
+    width: 40rem;
+    height: 7rem;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #33f;
+    color: #eee;
+    cursor: pointer;
+
+}
+
+/* footer */
+
+footer{
+    height: 40rem;
+    width: 190rem;
+    background-color: #000;
+    padding: 5rem;
+    display: flex;
+}
+
+.footerArticle{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-left: 5rem;
+}
+
+.footerA1{
+    color: #fff;
+    font-weight: 1000;
+    text-decoration: none;
+
+}
+
+.footerA{
+    text-decoration: none;
+    color: #fff;
+}
+
+h1, h2, p{
+    cursor:default;
+}

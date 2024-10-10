@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="collectie.css">
+    <script src="collectie.js" defer></script>
+    <title>Exclusieve en Authentieke sneakers | Sneakerz</title>
+</head>
+<body>
+    <header>
+        <img type="button" onclick="location.href='index.html'" class="logo" src="img/logo.webp" alt="">
+        <a class="headerTekst" href="yeezy.html">Yeezy</a>
+        <a class="headerTekst2" href="collectie.html">Onze Collectie</a>
+    </header>
+    <main>
+        <sectie class="inputs">
+            <div>
+                <input id="jordan" type="checkbox" class="filter">
+                <label for="jordan" class="label">Jordan</label>
+            </div>
+            <div>
+                <input id="yeezy" type="checkbox" class="filter">
+                <label for="yeezy" class="label">Yeezy</label>
+            </div>
+            <div>
+                <input id="dunk" type="checkbox" class="filter">
+                <label for="dunk" class="label">Dunk Low</label>
+            </div>    
+        </sectie>
+        <ul class="sneakers">
+            <li class="sneaker greyfog" data-category="dunk">
+                <img type="button" onclick="location.href='dunk.html'"  onmouseover="hovergreyfog(this)" onmouseout="unhovergreyfog(this)" src="collectionsimg/greyfogzij.webp" alt="Foto van de dunk low grey fog">
+                <p class="sneakernaam">Nike Dunk Low <br> 'Grey Fog'</p>
+                <p class="sneakerprijs">Vanaf €209,99</p>
+            </li>
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hoverashpearl(this)" onmouseout="unhoverashpearl(this)" src="yeezyimg/ashpearlzij.webp" alt="">
+                <p class="sneakernaam">Yeezy Boost 350 V2 <br> 'Ash Pearl'</p>
+                <p class="sneakerprijs">Vanaf €289,99</p>        
+            </li>
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hoverbeluga(this)" onmouseout="unhoverbeluga(this)" src="yeezyimg/belugazij.webp" alt="">
+                <p class="sneakernaam">Yeezy Boost 350 V2 <br> 'Beluga Reflective'</p>
+                <p class="sneakerprijs">Vanaf €239,99</p>
+            </li>
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hoverbluetint(this)" onmouseout="unhoverbluetint(this)" src="yeezyimg/bluetintzij.webp" alt="">
+                <p class="sneakernaam">Yeezy Boost 350 V2 <br> 'Blue Tint'</p>
+                <p class="sneakerprijs">Vanaf €279,99</p>
+            </li>
+            <li class="sneaker" data-category="jordan">
+                <img onmouseover="hoverlost(this)" onmouseout="unhoverlost(this)" src="collectionsimg/lostzij.webp" alt="Foto van de jordan 1 high lost and found">
+                <p class="sneakernaam">Air Jordan 1 Retro High <br> 'Lost and Found'</p>
+                <p class="sneakerprijs">Vanaf €399,99</p>
+            </li>
+            <li class="sneaker" data-category="dunk">
+                <img onmouseover="hoverpanda(this)" onmouseout="unhoverpanda(this)" src="collectionsimg/pandazij.webp" alt="Foto van de dunk low black en white">
+                <p class="sneakernaam">Nike Dunk Low <br> 'Black/White'</p>
+                <p class="sneakerprijs">Vanaf €159,99</p>
+            </li>
+            <li class="sneaker" data-category="jordan">
+                <img onmouseover="hoverdior(this)" onmouseout="unhoverdior(this)" src="collectionsimg/diorzij.webp" alt="Foto van de jordan 1 high yellow toe">
+                <p class="sneakernaam">Air Jordan 1 Retro High <br> 'Dior'</p>
+                <p class="sneakerprijs">Vanaf €7349,99</p>
+            </li>
+            <li class="sneaker" data-category="dunk">
+                <img onmouseover="hoverben(this)" onmouseout="unhoverben(this)" src="collectionsimg/benzij.webp" alt="Foto van de jordan 1 high yellow toe">
+                <p class="sneakernaam">Nike SB Dunk Low <br> 'Ben & Jerry's Chunky Dunky'</p>
+                <p class="sneakerprijs">Vanaf €1499,99</p>
+            </li>
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hoverlight(this)" onmouseout="unhoverlight(this)" src="yeezyimg/lightzij.webp" alt="">
+                <p class="sneakernaam">Yeezy Boost 350 V2 <br> 'Light'</p>
+                <p class="sneakerprijs">Vanaf €369,99</p>
+            </li>
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hoverochre(this)" onmouseout="unhoverochre(this)" src="yeezyimg/ochrezij.webp" alt="">
+                <p class="sneakernaam">Adidas Yeezy Slide <br> 'Ochre'</p>
+                <p class="sneakerprijs">Vanaf €109,99</p>
+            </li>
+            <li class="sneaker" data-category="jordan">
+                <img onmouseover="hoverdenim(this)" onmouseout="unhoverdenim(this)" src="collectionsimg/denimzij.webp" alt="Foto van de jordan 1 high yellow toe">
+                <p class="sneakernaam">Jordan 1 High OG <br> 'Denim'</p>
+                <p class="sneakerprijs">Vanaf €179,99</p>
+            </li>
+            <li class="sneaker" data-category="jordan">
+                <img onmouseover="hoverfearless(this)" onmouseout="unhoverfearless(this)" src="collectionsimg/fearlesszij.webp" alt="Foto van de jordan 1 high yellow toe">
+                <p class="sneakernaam">Air Jordan 1 Retro High <br> 'Fearless UNC Chicago'</p>
+                <p class="sneakerprijs">Vanaf €369,99</p>
+            </li>
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hovercinder(this)" onmouseout="unhovercinder(this)" src="yeezyimg/cinderzij.webp" alt="">
+                <p class="sneakernaam">Yeezy Boost 350 V2 <br> 'Cinder'</p>
+                <p class="sneakerprijs">Vanaf €529,99</p>
+            </li>
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hovercorered(this)" onmouseout="unhovercorered(this)" src="yeezyimg/coreredzij.webp" alt="">
+                <p class="sneakernaam">Yeezy Boost 350 V2 <br> 'Core Red'</p>
+                <p class="sneakerprijs">Vanaf €319,99</p>
+            </li>
+            <li class="sneaker" data-category="jordan">
+                <img onmouseover="hovermocha(this)" onmouseout="unhovermocha(this)" src="collectionsimg/mochazij.webp" alt="Foto van de jordan 1 high yellow toe">
+                <p class="sneakernaam">Air Jordan 1 Retro High <br> 'Dark Mocha'</p>
+                <p class="sneakerprijs">Vanaf €499,99</p>
+            </li>
+            <li class="sneaker" data-category="dunk">
+                <img onmouseover="hovermoon(this)" onmouseout="unhovermoon(this)" src="collectionsimg/moonzij.webp" alt="Foto van de dunk low harvest moon">
+                <p class="sneakernaam">Nike Dunk Low <br> 'Harvest Moon'</p>
+                <p class="sneakerprijs">Vanaf €209,99</p>
+            </li>
+            <li class="sneaker" data-category="jordan">
+                <img onmouseover="hoveruniversityblue(this)" onmouseout="unhoveruniversityblue(this)" src="collectionsimg/universityzij.webp" alt="Foto van de jordan 1 high university blue">
+                <p class="sneakernaam">Air Jordan 1 Retro High <br> 'University Blue'</p>
+                <p class="sneakerprijs">Vanaf €479,99</p>
+            </li>
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hoverslate(this)" onmouseout="unhoverslate(this)" src="yeezyimg/slatezij.webp" alt="">
+                <p class="sneakernaam">Yeezy Boost 350 V2 <br> 'Slate'</p>
+                <p class="sneakerprijs">Vanaf €309,99</p>
+            </li>
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hoversulfer(this)" onmouseout="unhoversulfer(this)" src="yeezyimg/sulferzij.webp" alt="">
+                <p class="sneakernaam">Yeezy Boost 350 V2 <br> 'Sulfer'</p>
+                <p class="sneakerprijs">Vanaf €589,99</p>
+            </li>
+        
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hoverwave(this)" onmouseout="unhoverwave(this)" src="yeezyimg/wavezij.webp" alt="">
+                <p class="sneakernaam">Yeezy Boost 700 <br> 'Wave Runner'</p>
+                <p class="sneakerprijs">Vanaf €409,99</p>
+            </li>
+            <li class="sneaker" data-category="jordan">
+                <img onmouseover="hovergreen(this)" onmouseout="unhovergreen(this)" src="collectionsimg/greenzij.webp" alt="Foto van de jordan 1 high lucky green">
+                <p class="sneakernaam">Air Jordan 1 High Retro <br> 'Lucky Green'</p>
+                <p class="sneakerprijs">Vanaf €229,99</p>
+            </li>
+            <li class="sneaker" data-category="jordan">
+                <img onmouseover="hoverobsidian(this)" onmouseout="unhoverobsidian(this)" src="collectionsimg/obsidianzij.webp" alt="Foto van de jordan 1 high obsidian">
+                <p class="sneakernaam">Air Jordan 1 Retro High <br> 'Obsidian'</p>
+                <p class="sneakerprijs">Vanaf €589,99</p>
+            </li>
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hoverdazzlingblue(this)" onmouseout="unhoverdazzlingblue(this)" src="yeezyimg/dazzlingzij.webp" alt="">
+                <p class="sneakernaam">Yeezy Boost 350 V2 <br> 'Dazzling Blue'</p>
+                <p class="sneakerprijs">Vanaf €399,99</p>
+            </li>
+        
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hoverdesertslide(this)" onmouseout="unhoverdesertslide(this)" src="yeezyimg/desertslidezij.webp" alt="">
+                <p class="sneakernaam">Adidas Yeezy Slide <br> 'Desert Sand'</p>
+                <p class="sneakerprijs">Vanaf €349,99</p>
+            </li>
+        
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hoverearth(this)" onmouseout="unhoverearth(this)" src="yeezyimg/earthzij.webp" alt="">
+                <p class="sneakernaam">Yeezy Boost 350 V2 <br> 'Earth'</p>
+                <p class="sneakerprijs">Vanaf €719,99</p>
+            </li>
+        
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hoveronyxslide(this)" onmouseout="unhoveronyxslide(this)" src="yeezyimg/onyxslidezij.webp" alt="">
+                <p class="sneakernaam">Adidas Yeezy Slide <br> 'Onyx'</p>
+                <p class="sneakerprijs">Vanaf €119,99</p>
+            </li>
+        
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hoveroreo(this)" onmouseout="unhoveroreo(this)" src="yeezyimg/oreozij.webp" alt="">
+                <p class="sneakernaam">Yeezy Boost 350 V2 <br> 'Core Black White'</p>
+                <p class="sneakerprijs">Vanaf €399,99</p>
+            </li>
+        
+            <li class="sneaker" data-category="yeezy"><img onmouseover="hoversand(this)" onmouseout="unhoversand(this)" src="yeezyimg/sandzij.webp" alt="">
+                <p class="sneakernaam">Yeezy Boost 350 V2 <br> 'Sand Taupe'</p>
+                <p class="sneakerprijs">Vanaf €339,99</p>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <article class="footerArticle">
+            <p class="footerA1">Klantenservice</p>
+            <a class="footerA" href="">Neem contact met ons op</a>
+            <a class="footerA" href="">FAQs</a>
+            <a class="footerA" href="">Verzending / Retour</a>
+            <a class="footerA" href="">Cookie Policy</a>
+            <a class="footerA" href="">Terms of Service</a>
+            <a class="footerA" href="">Privacy Policy</a>
+        </article>
+        <article class="footerArticle">
+            <p class="footerA1">Sneakrz</p>
+            <a class="footerA" href="">Over ons</a>
+            <a class="footerA" href="">Winkels</a>
+            <a class="footerA" href="">Speciale Collectie</a>
+        </article>
+        <article class="footerArticle">
+            <p class="footerA1">Mijn Account</p>
+            <a class="footerA" href="">Registreer / Log In</a>
+            <a class="footerA" href="">Mijn Wishlist</a>
+            <a class="footerA" href="">Mijn Winkelwagen</a>
+        </article>
+        <article class="footerArticle">
+            <p class="footerA1">Socials</p>
+            <a class="footerA" href="">Instagram</a>
+            <a class="footerA" href="">Twitter</a>
+            <a class="footerA" href="">Facebook</a>
+            <a class="footerA" href="">Tiktok</a>
+            <a class="footerA" href="">Youtube</a>
+            <a class="footerA" href="">Discord</a>
+        </article>
+    </footer>
+</body>
+</html>

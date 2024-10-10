@@ -1,0 +1,362 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+/* header */
+
+header{
+    width: 190rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50rem;
+    height: 5.5rem;
+    margin-left: 7rem;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.headerTekst{
+    margin-left: 80rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 3.5rem;
+    position: relative;
+}
+
+.headerTekst2{
+    margin-left: 6rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 3.5rem;
+    position: relative;
+}
+
+.htekst::after{
+    content: '';
+    position: absolute;
+    background-color: #000;
+    height: 0.4rem;
+    width: 0;
+    left: 0;
+    bottom: -0.5rem;
+    transition: 0.3s;
+}
+
+.htekst:hover::after{
+    width: 100%;
+}
+
+/* main */
+
+main{
+    height: 90rem;
+    width: 190rem;
+}
+
+.binnenkomstImg{
+    height: 90rem;
+    width: 190rem;
+    object-fit: cover;
+    position: absolute;
+}
+
+.binnenkomstFigure{
+    position: relative;
+    top: 15rem;
+    left: 10rem;
+    display: inline-block;
+}
+
+h1{
+    font-size: 12rem;
+    color: #fff;
+}
+
+.binnenkomstButton{
+    margin-top: 3rem;
+    width: 50rem;
+    height: 10rem;
+    font-size: 6rem;
+    color: #000;
+    text-align: center;
+    border: 0.4rem solid #000;
+    border-radius: 5rem;
+    background-color: white;
+    cursor:pointer;
+    overflow: hidden;
+    background: linear-gradient(to left, #fff 50%, #000 50%) right;
+    background-size: 200%;
+    transition: .3s ease-out;
+}
+
+.binnenkomstButton:hover{
+    background-position: left bottom;
+    color: white;
+}
+
+/* sectie 2 */
+
+.groteHeadingSectie{
+    height: 90rem;
+    width: 190rem;
+}
+
+.articleTekstBF{
+    height: 50rem;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    padding-right: 7rem;
+}
+
+.groteHeadingH2{
+    font-size: 4.5rem;
+    padding-bottom: 3rem;
+}
+
+.groteHeadingP{
+    font-size: 2rem;
+    width: 56ch;
+}
+
+.headingButton{
+    margin-top: 3rem;
+    width: 50rem;
+    height: 10rem;
+    font-size: 6rem;
+    color: #000;
+    text-align: center;
+    border: 0.4rem solid #000;
+    border-radius: 5rem;
+    background-color: white;
+    cursor:pointer;
+    overflow: hidden;
+    background: linear-gradient(to left, #fff 50%, #000 50%) right;
+    background-size: 200%;
+    transition: .3s ease-out;
+}
+
+.headingButton:hover{
+    background-position: left bottom;
+    color: white;
+}
+
+.travisScottBF{
+    height: 50rem;
+    width: 85rem;
+}
+
+
+.boxVanHeading1{
+    width: 30rem;
+    height: 25rem;
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 10rem;
+}
+
+
+img{
+    object-fit: cover;
+}
+
+/* sectie 3 */
+.stappenplanSectie{
+    height: 90rem;
+    width: 190rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stappenplan{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stappenplanItem{
+    height: 35rem;
+    width: 50%;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cirkel{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0.5rem solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stappenplanWinkelwagentekst{ 
+    font-size: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.stappenplanWinkelwagentekst2{
+    font-size: 2rem;
+    width: 55ch;
+    text-align:center;
+}
+
+
+
+/* sectie 4 */
+.groteHeadingSectie2{
+    height: 90rem;
+    width: 190rem;
+}
+
+.groteHeading2Article{
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    text-align: center;
+}
+
+.boxVanGroteHeading2{
+    padding-top: 15rem;
+}
+
+.groteHeading2H2{
+    font-size: 4.5rem;
+    padding-bottom: 3rem;
+}
+
+.groteHeadingP2{
+    font-size: 2rem;
+    width: 56ch;
+}
+.duursteSneakerFigure{
+    margin-top: 10rem;
+    height: 60rem;
+    width: 90rem;
+    overflow: hidden;
+}
+
+.duursteSneaker{
+    height: 100%;
+    width: 100% ;
+    transition: 0.5s;
+}
+
+.duursteSneaker:hover{
+    transform: scale(1.1);
+}
+
+/* sectie 5 */
+
+.reviewSectie{
+    height: 90rem;
+    width: 190rem;
+}
+
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10rem;
+    flex-wrap: wrap;
+}
+
+.review{
+    height: 70rem;
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    box-shadow: 0 2rem 2rem 0 rgba(0,0,0,0.3),
+    inset 0 -1rem 1rem -1rem rgba(0,0,0,0.1);
+}
+
+.stars{
+    font-size: 3rem;
+    margin: 2rem;
+    color: gold;
+}
+
+.reviewP{
+    width: 32ch;
+}
+.reviewImg{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+/* footer */
+
+footer{
+    height: 40rem;
+    width: 190rem;
+    background-color: #000;
+    padding: 5rem;
+    display: flex;
+}
+
+.footerArticle{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-left: 5rem;
+}
+
+.footerA1{
+    color: #fff;
+    font-weight: 1000;
+    text-decoration: none;
+
+}
+
+.footerA{
+    text-decoration: none;
+    color: #fff;
+}
+
+h1, h2, p{
+    cursor:default;
+}
+
+
+
+
+
+
+

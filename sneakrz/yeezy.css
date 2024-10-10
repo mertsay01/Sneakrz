@@ -1,0 +1,190 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+/* header */
+
+header{
+    width: 190rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50rem;
+    height: 5.5rem;
+    margin-left: 7rem;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.headerTekst{
+    margin-left: 80rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 3.5rem;
+    position: relative;
+}
+
+.headerTekst2{
+    margin-left: 6rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 3.5rem;
+    position: relative;
+}
+
+.htekst::after{
+    content: '';
+    position: absolute;
+    background-color: #000;
+    height: 0.4rem;
+    width: 0;
+    left: 0;
+    bottom: -0.5rem;
+    transition: 0.3s;
+}
+
+.htekst:hover::after{
+    width: 100%;
+}
+
+main{
+    width: 190rem;
+}
+
+.dropdownsectie{
+    width: 100%;
+    margin-top: 15rem;
+    margin-bottom: 17rem;
+    padding-left: 15rem;
+    display: flex;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-width: 40rem;
+    height: 8rem;
+}
+
+.select-container .icon-container{
+    width: 7rem;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F1E36;
+    border-radius: 1rem;
+}
+
+.icon-container{
+    font-size: 5rem;
+    color: white;
+}
+
+.select-box{
+    border: none;
+    appearance: none;
+    padding: 0 3rem 0 1.5rem;
+    width: 100%;
+    color: #eee;
+    background-color: #2B2A4C;
+    font-size: 3rem;
+    border-radius: 1rem;
+}
+
+
+
+/* sneaker sectie */
+.sneakers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.sneaker{
+    list-style: none;
+    width: 40rem;
+    height: 40rem;
+}
+
+.sneakernaam{
+    margin-top: -7rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #000;
+}
+
+.sneakerprijs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #565656;
+}   
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* footer */
+footer{
+    height: 40rem;
+    width: 190rem;
+    background-color: #000;
+    padding: 5rem;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.footerArticle{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-left: 5rem;
+}
+
+.footerA1{
+    color: #fff;
+    font-weight: 1000;
+    text-decoration: none;
+
+}
+
+.footerA{
+    text-decoration: none;
+    color: #fff;
+}
+
+h1, h2, p{
+    cursor:default;
+}
